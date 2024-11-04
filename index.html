@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Deléitate</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <!-- CSS principal -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  <!--Favicon del sitio-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+<!-- Bootstrap   -->
+
+<header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="index.html"><img src="images/marcahorizontal.svg" alt="deleite"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "> <img src="images/botonMenu.svg"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="acerca.html">Acerca de</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tortas.html">Tortas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="catering.html">Catering</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pedido.html">Mi pedido</a>
+        </li>
+                
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- HERO me falta la animación-->
+<section class="banner bg-cover position-relative d-flex justify-content-center align-items-center"
+data-background="images/hero1.jpg"> 
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-100">
+        <h1 class="display-1 text-white">¡Mereces celebrar!</h1>
+      </div>
+      <div class="col-12 text-center">
+        <a id="btn-hero" href="#">Iniciar Sesión</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ANIMACIÓN -->
+<section class="d-flex justify-content-center align-items-center">
+  <div class="container-fluid">
+    <div class="row">
+      <div  id="mark" class="col-12 text-center">
+         <marquee> pie de maracuyá - tortas personalizadas - mini tortas - vasos torta - cupcakes - donas - mini donas - mini sándwiches - empanadas - pie de limón - gelatina artística - galletas - chocolates
+        </marquee>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios-bg" class="section">
+  <div class="container">
+    <div class="row">
+      <div id="servicio" class="col-lg-10 mx-auto text-center mb-4">
+        
+      </div>
+    </div>
+    <div class="row mb-4">
+      <div class="col-lg-3 mb-4 mb-lg-0">
+        <div class="card hover-bg-secondary shadow py-4 active">
+          <div class="card-body text-center"> 
+            <h4 class="mb-4">¿Cúal tipo de torta se te antoja?</h4>
+            <p>¡Nuestra pastelería artesanal ofrece una amplia variedad de tortas deliciosas hechas a tu gusto!</p>
+            <a id="btn-hero" href="#">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 mb-4 mb-lg-0">
+        <div class="card hover-bg-secondary shadow py-4">
+          <div class="card-body text-center">
+            <div class="position-relative">
+              <img src="images/servicios/cheesecake1.png">
+            </div>
+            <h4 class="mb-4">Cheesecake Red velvet</h4>
+            <p>Desde Bs. 50</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 mb-4 mb-lg-0">
+        <div class="card hover-bg-secondary shadow py-4">
+          <div class="card-body text-center">
+            <div class="position-relative">
+              <img src="images/servicios/tortachocolate2.png">
+                
+            </div>
+            <h4 class="mb-4">Torta de chocolate</h4>
+            <p>Desde Bs. 80</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 mb-4 mb-lg-0">
+        <div class="card hover-bg-secondary shadow py-4">
+          <div class="card-body text-center">
+            <div class="position-relative">
+            <div class="position-relative">
+              <img src="images/servicios/tortanueces3.png">
+            </div>
+            </div>
+            <h4 class="mb-4">Torta con nueces o almendras</h4>
+            <p>Desde Bs.70</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-3 mb-4 mb-lg-0">
+        <div class="card hover-bg-secondary shadow py-4 active">
+          <div class="card-body text-center"> 
+            <h4 class="mb-4">Promociones de temporada</h4>
+            <p>Sé parte de nuestra familia, recibe promociones y descuentos por ser cliente fiel.</p>
+            <a id="btn-hero" href="#">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 mb-4 mb-lg-0">
+        <div class="card hover-bg-secondary shadow py-4">
+          <div class="card-body text-center">
+            <div class="position-relative">
+              <img src="images/servicios/tortanavideña1.png">
+            </div>
+            <h4 class="mb-4">Cheesecake Red velvet</h4>
+            <p>Desde Bs. 50</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 mb-4 mb-lg-0">
+        <div class="card hover-bg-secondary shadow py-4">
+          <div class="card-body text-center">
+            <div class="position-relative">
+              <img src="images/servicios/rosca2.png">
+                
+            </div>
+            <h4 class="mb-4">Torta de chocolate</h4>
+            <p>Desde Bs. 80</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 mb-4 mb-lg-0">
+        <div class="card hover-bg-secondary shadow py-4">
+          <div class="card-body text-center">
+            <div class="position-relative">
+            <div class="position-relative">
+              <img src="images/servicios/cheesecake3.png">
+            </div>
+            </div>
+            <h4 class="mb-4">Torta con nueces o almendras</h4>
+            <p>Desde Bs.70</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- PERSONALIZA -->
+<section id="personaliza" class="section">
+  <div class="container">
+    <div class="row">
+      <div id="titulo-p" class="col-lg-10 mx-auto text-center">
+        <h2>Personaliza tu torta</h2>        
+      </div>
+    </div>
+  </div>
+  <div id="per-tortas" class="container">
+    
+      <img class="per" src="images/Servicios/personaliza1.jpg" alt="Pastel 1">
+      <img class="per" src="images/Servicios/personaliza4.jpg" alt="Pastel 2">
+      <img class="per" src="images/Servicios/personaliza2.jpg" alt="Pastel 3">
+      <img class="per" src="images/Servicios/personaliza5.jpg" alt="Pastel 4">
+      <img class="per" src="images/Servicios/personaliza3.jpg" alt="Pastel 5">
+      <img class="per" src="images/Servicios/personaliza6.jpg" alt="Pastel 6"> 
+  </div>  
+  <div class="row">
+    <div class="col-12 text-center mt-5">
+        <a id="btn-hero" href="#">Pide ahora</a>
+      </div>
+  </div>
+    
+</section>
+
+<!-- AÑADE A TU FIESTA -->
+<section id="home-catering" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <h2>Añade a tu fiesta deliciosos postres</h2>        
+      </div>
+    </div>
+  </div>
+  <div class="container swiper">
+      <div class="slider-wrapper">
+        <div class="card-list swiper-wrapper">
+          <div class="card-item swiper-slide">
+            <img src="images/Servicios/minidonas1.jpg" class="user-image">
+            <h4 class="user-name">Mini Donas</h4>
+            <p class="user-profession">50 unidades Bs. 50 <br>100 unidades Bs. 95</p>
+            <button class="message-btn">Añadir a mi pedido</button>
+          </div>
+
+          <div class="card-item swiper-slide">
+            <img src="images/Servicios/donas2.jpg" class="user-image">
+            <h4 class="user-name">Donas</h4>
+            <p class="user-profession">50 unidades Bs. 95 <br>
+              100 unidades Bs. 190</p>
+            
+            <button class="message-btn">Añadir a mi pedido</button>
+          </div>
+
+          <div class="card-item swiper-slide">
+            <img src="images/Servicios/cupcake3.jpg" class="user-image">
+            <h4 class="user-name">Cupcakes</h4>
+            <p class="user-profession">24 unidades Bs. 130 <br>
+              *la cotización es personalizada</p>
+            <button class="message-btn">Añadir a mi pedido</button>
+          </div>
+
+            <div class="card-item swiper-slide">
+            <img src="images/Servicios/galletas4.jpg" class="user-image">
+            <h4 class="user-name">Galletas</h4>
+            <p class="user-profession">32 unidades Bs. 20 <br>
+              *la cotización es personalizada</p>
+            
+            <button class="message-btn">Añadir a mi pedido</button>
+          </div>
+
+          <div class="card-item swiper-slide">
+            <img src="images/Servicios/chocolates5.jpg" class="user-image">
+            <h4 class="user-name">Chocolates</h4>
+            <p class="user-profession">50 unidades Bs. 50 <br>
+              100 unidades Bs. 95</p>
+           
+            <button class="message-btn">Añadir a mi pedido</button>
+          </div>
+          <div class="card-item swiper-slide">
+            <img src="images/Servicios/gelatinas6.jpg" class="user-image">
+            <h4 class="user-name">Gelatinas</h4>
+            <p class="user-profession">100 unidades Bs. 95</p>
+            <button class="message-btn">Añadir a mi pedido</button>
+          </div>
+          <div class="card-item swiper-slide">
+            <img src="images/Servicios/rollo7.jpg" class="user-image">
+            <h4 class="user-name">Rollo de queso</h4>
+            <p class="user-profession">2 unidades Bs. 45 </p>
+            
+            <button class="message-btn">Añadir a mi pedido</button>
+          </div>
+           <div class="card-item swiper-slide">
+            <img src="images/Servicios/sandwich8.jpg" class="user-image">
+            <h4 class="user-name">Sándwiches</h4>
+            <p class="user-profession">24 unidades Bs. 130 <br>
+              *la cotización es personalizada</p>
+            
+            <button class="message-btn">Añadir a mi pedido</button>
+          </div>
+           <div class="card-item swiper-slide">
+            <img src="images/Servicios/empanadas9.jpg" class="user-image">
+            <h4 class="user-name">Empanadas</h4>
+            <p class="user-profession">50 unidades Bs. 100 <br>
+              100 unidades Bs. 195</p>
+            <button class="message-btn">Añadir a mi pedido</button>
+          </div>
+          <div class="card-item swiper-slide">
+            <img src="images/Servicios/hamburguesa10.jpg" class="user-image">
+            <h4 class="user-name">Mini hamburguesas</h4>
+            <p class="user-profession">
+              24 unidades Bs. 130 <br>
+              *la cotización es personalizada</p>
+            <button class="message-btn">Añadir a mi pedido</button>
+          </div>
+        </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-slide-button swiper-button-prev"></div>
+          <div class="swiper-slide-button swiper-button-next"></div>
+      </div>
+    </div>
+     
+ 
+  
+    
+  </div>
+</section>
+
+
+<!-- PIDE Y CELEBRA-->
+<section id="pide" class="section-lg position-relative bg-cover" data-background="images/backgrounds/about-bg.jpg">
+  <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-lg-5 col-md-8 col-sm-7 col-8">
+        <h2 class="mb-4">¡Tan solo pide y celebra!</h2>
+        <p class="mb-4">Los pedidos se confirman con el anticipo del 50% del precio final. Realizamos envíos con un costo adicional o las entregas se realizan en Alto Obrajes, Av. del Maestro #400.</p>
+        <a href="about.html" class="btn btn-primary">Abrir Chat</a>
+      </div>
+      <div id="cajacereza" class="col-lg-5 col-md-2 col-sm-4 col-4 text-right">
+        <img class="pide-s" src="images/cardChat.png" class="img-fluid" alt="Pastel 3">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- ACERCA DE -->
+<section id="acercade-home" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center mb-5">
+        <h2>Un servicio que se adaptada a tus gustos</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-md-4 col-12 mb-4">
+        <div class="card1 bottom-shape pt-4">
+          <div class="card-body text-center">
+
+            <p class="text-light mb-4">Nos dedicamos a crear tortas y postres según las solicitudes específicas de los clientes. Para nosotros es fundamental que cada producto adapte al evento o la ocasión.</p>
+            <h4 class="text-dark">Responsabilidad, sabor y amor en cada bocado</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-sm-6 col-12 mb-4">
+        <div class="card2 bottom-shape pt-4">
+          <div class="card-body text-center">
+            <h4 class="text-dark">Misión</h4>
+            <p class="text-light mb-4">Comprometidos a deleitar los sentidos de cada cliente a través de experiencias culinarias únicas y sabores innovadores, esforzándonos por superar sus expectativas en cada entrega.</p>
+            
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-sm-6 col-12 mb-4">
+        <div class="card3 bottom-shape pt-4">
+          <div class="card-body text-center">
+            <h4 class="text-dark">Visión</h4>
+            <p class="text-light mb-4">Ser una marca líder en el mundo<br> del servicio de catering en repostería, reconocida por su creatividad e innovación. </p>
+            
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section id="testimonios" class="section">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center mb-5">
+        <h2>Testimonios de deleite</h2>
+        
+      </div>
+    </div>
+    <div class="row mb-5">
+        <div class="col-lg-4" mb-3>
+            <div class="card text-center">
+              
+              <div class="card-body">
+                
+                <p class="card-text">“Desde que probé la torta de cumpleaños de Deléitate en la fiesta de un amigo, ¡me obsesioné! No solo era hermosa, sino también increíblemente deliciosa. ¡Todos querían más!”.</p>
+                <h5 class="card-title">- Ángela S.</h5>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-4" mb-3>
+            <div class="card text-center">
+              
+              <div class="card-body">
+                
+                <p class="card-text">“El servicio de catering de Deléitate hizo que mi celebración de cumpleaños fuera inolvidable. Cada bocadito fue un éxito con mis invitados, en especial su famosa torta de hoja de coca.”</p>
+                <h5 class="card-title">- Rosa A.</h5>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-4" mb-3>
+            <div class="card text-center">
+              
+              <div class="card-body">
+                
+                <p class="card-text">“Su atención al detalle en la entrega y los sabores exquisitos de sus productos, elevaron la fiesta de cumpleaños de mi hijita por las nubes, todos quedamos encantados. Un servicio de primera categoría”</p>
+                <h5 class="card-title">- Cesar C.</h5>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-4 col-md-8 col-sm-7 col-8">
+        <img class="imagen-t" src="images/testimonial/testimonio1.jpg">
+        <h4>¡Gracias por tu fidelidad!</h4>
+        <p class="text-dark mb-4">Nos alegra contar con clientes como tú, quienes nos han acompañado desde el principio. Si te registras con tu nombre y correo, recibirás un generoso 50% de descuento en tu próxima torta personalizada</p>
+      </div>
+      <div class="col-lg-4 col-md-2 col-sm-4 col-4 text-center">
+        <img class="mb-4" src="images/cardChat.png" class="img-fluid" alt="Pastel 3">
+        <a href="about.html" class="btn btn-primary">Abrir Chat</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- footer -->
+<footer id="fut">
+  <div class="section">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-12">
+          <img src="images/marcavertical.svg">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-md-6 text-center text-md-left">
+          
+            <li class="list-inline-item"><a class="d-block p-3" href="#"><img src="images/icontiktok.svg"> </a></li>
+            <li class="list-inline-item"><a class="d-block p-3" href="#"><img src="images/iconfacebook.svg"> </a></li>
+            <li class="list-inline-item"><a class="d-block p-3" href="#"><img src="images/iconinstagram.svg"> </a></li>
+          
+          <p>Visita nuestras redes sociales</p>
+        </div>
+
+        <div class="col-md-6 text-center text-md-right">
+          
+            <li class="list-inline-item"><a class="d-block p-3" href="#"><img src="images/icondireccion.svg"> </a></li>
+            <li class="list-inline-item"><a class="d-block p-3" href="#"><img src="images/iconwhasap.svg"> </a></li>
+          
+          <p>La Paz, Bolivia. Zona Alto Obrajes Av. del Maestro #400<br>
+          Contactos al 68067579 - 79794086</p>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-12 ">
+          <p class="text-dark mb-0">Diseño web por  <a href="https://www.behance.net" target="_blank">Graciela Illanes </a>
+          </p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- Custom JS Script Link -->
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
